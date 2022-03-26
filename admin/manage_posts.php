@@ -22,7 +22,7 @@
                                 <a type="button" href="../includes/remove_post.php?id=<?=$p['id']?>" class="btn btn-danger">Delete</a>
                             </div><br>
                             <span class="text-small text-muted"><?=date('- F jS, Y', strtotime($p['created_at']))?></span>
-                            <div class="fs-5 mt-2"><?=$p['content']?></div>
+                            <div class="fs-5 mt-4"><?=$p['content']?></div>
                             <span class="badge bg-primary"><?=getCategory($db, $p['category_id'])?></span>
                         </div>
                         <hr>

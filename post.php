@@ -110,8 +110,7 @@
                                 <div class="card mb-3" style="max-width: 700px;">
                                     <div class="row g-0">
                                         <div class="col-md-5"
-                                            style="background-image: url('https://images.moneycontrol.com/static-mcnews/2020/04/stock-in-the-news-770x433.jpg');background-size: cover">
-                                            <!-- <img src="https://images.moneycontrol.com/static-mcnews/2020/04/stock-in-the-news-770x433.jpg" alt="..."> -->
+                                            style="background-image: url('images/<?=getPostThumb($db, $rpost['id'])?>');background-size: cover">
                                         </div>
                                         <div class="col-md-7">
                                             <div class="card-body">
