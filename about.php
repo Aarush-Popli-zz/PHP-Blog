@@ -1,3 +1,8 @@
+<?php
+  require('includes/db.php');
+  require('includes/function.php')
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -42,9 +47,9 @@
                             <div class="card-body pt-3">
                                 <div class="tab-content">
                                     <div class="tab-pane fade show active profile-overview" id="profile-overview">
-                                        <h5 class="card-title">About</h5>
-                                        <p class="small fst-italic">I am eager to learn new tools related to coding and designing. I have worked with various languages and tools to create projects related to automation, web development and AI.</p>
-                                        <h5 class="card-title">Profile Details</h5>
+                                        <h5 class="card-title fw-bold">About</h5>
+                                        <p class="small">I am eager to learn new tools related to coding and designing. I have worked with various languages and tools to create projects related to automation, web development and AI.</p>
+                                        <h5 class="card-title fw-bold">Profile Details</h5>
                                         <div class="row">
                                             <div class="col-lg-3 col-md-4 label">Full Name</div>
                                             <div class="col-lg-9 col-md-8">Aarush Popli</div>

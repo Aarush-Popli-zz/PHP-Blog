@@ -10,7 +10,7 @@
         <section class="section dashboard">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">All Posts</h5>
+                    <h5 class="card-title fw-bold fs-5">All Posts</h5>
                     <?php
                         $posts = getAllPosts($db);
                         foreach($posts as $p){

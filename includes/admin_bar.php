@@ -79,9 +79,6 @@
                             <hr class="dropdown-divider">
                         </li>
                         <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li>
                             <a class="dropdown-item d-flex align-items-center" href="../includes/logout.php">
                                 <i class="bi bi-box-arrow-right"></i>
                                 <span>Log Out</span>
