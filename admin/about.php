@@ -25,7 +25,7 @@
             <div class="col-xl-8">
                 <div class="card">
                     <div class="card-body pt-3">
-                        <ul class="nav nav-tabs nav-tabs-bordered">
+                        <!-- <ul class="nav nav-tabs nav-tabs-bordered">
                             <li class="nav-item">
                                 <button class="nav-link active" data-bs-toggle="tab"
                                     data-bs-target="#profile-overview">Overview</button>
@@ -36,7 +36,8 @@
                                     data-bs-target="#profile-change-password">Change Password</button>
                             </li>
                         </ul>
-                        <div class="tab-content pt-2">
+                        <div class="tab-content pt-2"> -->
+                        <div class="tab-content">
                             <div class="tab-pane fade show active profile-overview" id="profile-overview">
                                 <h5 class="card-title fw-bold">About</h5>
                                 <p class="small">I am eager to learn new tools related to coding and designing. I have worked with various languages and tools to create projects related to automation, web development and AI.</p>
@@ -55,7 +56,7 @@
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade pt-3" id="profile-change-password">
+                            <!-- <div class="tab-pane fade pt-3" id="profile-change-password">
                                 <form>
                                     <div class="row mb-3">
                                         <label for="currentPassword" class="col-md-4 col-lg-3 col-form-label">Current
@@ -88,7 +89,7 @@
                                         <button type="submit" class="btn btn-primary">Change Password</button>
                                     </div>
                                 </form>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
